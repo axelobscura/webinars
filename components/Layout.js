@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Menu from './Menu';
 
 export const siteTitle = 'Instituto Mexicano del Cemento y del Concreto A.C.';
 
@@ -16,6 +17,7 @@ export default function Layout({ children }){
                 <meta name="twitter:card" content="summary_large_image" />
                 <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"></link>
             </Head>
+            <Menu />
             <Row>
                 {children}
             </Row>
