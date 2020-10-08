@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -38,21 +39,24 @@ export default function Menu() {
     return (
     <Navbar bg="transparent" expand="lg" style={styleNav}>
         <Navbar.Brand href="#">
-            <img src="logo.svg" style={elLogo} alt="Catálogo de la cerveza mexicana" title="Catálogo de la cerveza mexicana" />
+            <Link href="/">
+                <img src="logo.svg" style={elLogo} alt="Catálogo de la cerveza mexicana" title="Catálogo de la cerveza mexicana" />
+            </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-            <Nav.Link href="#home">CATÁLOGO</Nav.Link>
-            <Nav.Link href="#link">TIENDA</Nav.Link>
-            <NavDropdown title="TIPOS" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">CATÁLOGO</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#link">CONTACTO</Nav.Link>
+                <Nav.Link><Link href="/quienes-somos">QUIÉNES SOMOS</Link></Nav.Link>
+                <Nav.Link><Link href="/quienes-somos">CATÁLOGO</Link></Nav.Link>
+                <Nav.Link>TIENDA</Nav.Link>
+                <NavDropdown title="TIPOS" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="#action/3.1">CATÁLOGOOOOOOO</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                </NavDropdown>
+                <Nav.Link href="#link">CONTACTO</Nav.Link>
             </Nav>
             <Form inline>
             <input type="text" placeholder="Buscar contenido..." className="mr-sm-2" style={elInput} />
