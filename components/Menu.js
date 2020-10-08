@@ -13,7 +13,7 @@ const styleNav = {
     left: 0,
     color: '#ffffff',
     fontFamily: 'Oswald',
-    fontSize: '2rem'
+    fontSize: '1rem'
 }
 
 const elInput = {
@@ -26,8 +26,7 @@ const elInput = {
 }
 
 const elLogo = {
-    width: '150px',
-    height: '120px'
+    width: '180px'
 }
 
 const elBuscador = {
