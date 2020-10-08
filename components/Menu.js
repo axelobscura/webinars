@@ -18,8 +18,7 @@ const styleNav = {
 
 const elInput = {
     border: 'none',
-    borderRadius: '10px',
-    padding: '7px 10px',
+    padding: '7px 20px',
     background: 'rgba(0,0,0,0.7)',
     color: '#ffffff',
     fontSize: '1rem'
@@ -56,7 +55,7 @@ export default function Menu() {
             <Nav.Link href="#link">CONTACTO</Nav.Link>
             </Nav>
             <Form inline>
-            <input type="text" placeholder="Buscar cerveza..." className="mr-sm-2" style={elInput} />
+            <input type="text" placeholder="Buscar contenido..." className="mr-sm-2" style={elInput} />
             <Button  style={elBuscador}><span class="lnr lnr-magnifier"></span></Button>
             </Form>
         </Navbar.Collapse>
