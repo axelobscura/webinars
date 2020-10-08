@@ -17,7 +17,8 @@ const columnaQS = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    flex: '30em 1'
+    flex: '30em 1',
+    background: '#026380'
 }
 
 const columnaQSTitulo = {
@@ -29,16 +30,19 @@ const columnaQSTitulo = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    background: '#333'
 }
 
 const columnaQSh1 = {
     textAlign: 'center',
-    fontWeight: '100'
+    fontWeight: '900',
+    color: '#fff'
 }
 
 const columnaQSp = {
     textAlign: 'justify',
-    padding: '10px 30px'
+    padding: '10px 30px',
+    color: '#fff'
 }
 
 export default function Quienessomos() {
