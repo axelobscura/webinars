@@ -15,7 +15,8 @@ const styleNav = {
     color: '#ffffff',
     fontFamily: 'Oswald',
     fontSize: '0.9rem',
-    padding:'0'
+    padding:'0',
+    boxShadow: '0 0 10px #000'
 }
 
 const elInput = {
@@ -40,7 +41,7 @@ const elBuscador = {
 
 export default function Menu() {
     return (
-    <Navbar bg="transparent" expand="lg" style={styleNav}>
+    <Navbar bg="dark" expand="lg" style={styleNav}>
         <Navbar.Brand>
             <Link href="/">
                 <img src="logo.svg" style={elLogo} alt="Catálogo de la cerveza mexicana" title="Catálogo de la cerveza mexicana" />
