@@ -11,7 +11,7 @@ export default function Layout({ children }){
         <Container fluid={true}>
             <Head>
                 <title>{siteTitle}</title>
-                <link rel="icon" type="image/png" href="favicon.png" />
+                <link rel="icon" type="image/png" href="http://www.imcyc.com/wp-content/uploads/2017/07/favicon.png" />
                 <meta name="description" content="Instituto Mexicano del Cemento y del Concreto A.C." />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
