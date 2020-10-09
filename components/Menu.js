@@ -14,7 +14,8 @@ const styleNav = {
     left: 0,
     color: '#ffffff',
     fontFamily: 'Oswald',
-    fontSize: '1rem'
+    fontSize: '1rem',
+    padding:'0'
 }
 
 const elInput = {
@@ -26,7 +27,10 @@ const elInput = {
 }
 
 const elLogo = {
-    width: '180px'
+    width: '180px',
+    padding: '10px 20px',
+    background: 'rgba(0,0,0,0.7)',
+    margin: '0'
 }
 
 const elBuscador = {
@@ -47,7 +51,12 @@ export default function Menu() {
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
                 <Link href="/quienes-somos">QUIÉNES SOMOS</Link>
-                <Link href="/">CATÁLOGO</Link>
+                <Link href="/">CURSOS</Link>
+                <Link href="/">GERENCIA TÉCNICA</Link>
+                <Link href="/">HISTORIA</Link>
+                <Link href="/">MEMBRESÍAS</Link>
+                <Link href="/">DIRECTORIO</Link>
+                <Link href="/">TIENDA</Link>
             </Nav>
             <Form inline>
             <input type="text" placeholder="Buscar contenido..." className="mr-sm-2" style={elInput} />
