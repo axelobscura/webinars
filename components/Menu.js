@@ -14,7 +14,7 @@ const styleNav = {
     left: 0,
     color: '#ffffff',
     fontFamily: 'Oswald',
-    fontSize: '0.9rem',
+    fontSize: '0.8rem',
     padding:'0',
     boxShadow: '0 0 10px #000'
 }
