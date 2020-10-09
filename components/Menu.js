@@ -24,7 +24,8 @@ const elInput = {
     padding: '7px 20px',
     background: 'rgba(0,0,0,0.7)',
     color: '#ffffff',
-    fontSize: '1rem'
+    fontSize: '1rem',
+    marginRight: '0 !important'
 }
 
 const elLogo = {
@@ -34,9 +35,11 @@ const elLogo = {
 }
 
 const elBuscador = {
-    background: 'rgba(0,0,0,0.7)',
+    background: 'rgba(0,0,0,1)',
     color: '#fff',
-    border: 'none'
+    border: '3px solid #333',
+    borderRadius: 0,
+    marginRight: '10px'
 }
 
 export default function Menu() {
