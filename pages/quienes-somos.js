@@ -18,7 +18,8 @@ const columnaQS = {
     justifyContent: 'center',
     alignItems: 'center',
     flex: '30em 1',
-    background: '#026380'
+    background: 'rgb(0,38,50)',
+    background: 'linear-gradient(306deg, rgba(0,38,50,1) 0%, rgba(2,99,128,1) 100%)'
 }
 
 const columnaQSTitulo = {
@@ -30,7 +31,8 @@ const columnaQSTitulo = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    background: '#333'
+    background: 'rgb(17,17,17)',
+    background: 'linear-gradient(306deg, rgba(17,17,17,1) 0%, rgba(119,119,119,1) 100%)'
 }
 
 const columnaQSh1 = {
@@ -42,7 +44,8 @@ const columnaQSh1 = {
 const columnaQSp = {
     textAlign: 'justify',
     padding: '10px 30px',
-    color: '#fff'
+    color: '#fff',
+    fontWeight: '100'
 }
 
 export default function Quienessomos() {
