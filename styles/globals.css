@@ -52,6 +52,15 @@ a {
 .navbar-nav a {
   margin: 0 10px;
   font-weight: 100;
+  transition: all 1s;
+  padding: 10px 10px;
+  margin-right: 0;
+}
+
+.navbar-nav a:hover {
+  background: rgba(0,0,0,0.8);
+  text-decoration: none;
+  color: #fff;
 }
 
 @media (max-width: 575px) {

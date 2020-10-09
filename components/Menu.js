@@ -14,7 +14,7 @@ const styleNav = {
     left: 0,
     color: '#ffffff',
     fontFamily: 'Oswald',
-    fontSize: '1rem',
+    fontSize: '0.9rem',
     padding:'0'
 }
 
@@ -29,7 +29,6 @@ const elInput = {
 const elLogo = {
     width: '180px',
     padding: '10px 20px',
-    background: 'rgba(0,0,0,0.7)',
     margin: '0'
 }
 
