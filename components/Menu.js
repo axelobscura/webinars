@@ -16,12 +16,12 @@ const styleNav = {
     fontFamily: 'Oswald',
     fontSize: '0.8rem',
     padding:'0',
-    boxShadow: '0 0 10px #000'
+    right: 0
 }
 
 const elInput = {
     border: 'none',
-    padding: '7px 20px',
+    padding: '5px 5px',
     background: 'rgba(0,0,0,0.7)',
     color: '#ffffff',
     fontSize: '1rem',
@@ -30,8 +30,9 @@ const elInput = {
 
 const elLogo = {
     width: '180px',
-    padding: '10px 20px',
-    margin: '0'
+    padding: '10px 10px',
+    margin: '0',
+    paddingRight: '0'
 }
 
 const elBuscador = {
@@ -44,10 +45,10 @@ const elBuscador = {
 
 export default function Menu() {
     return (
-    <Navbar bg="dark" expand="lg" style={styleNav}>
+    <Navbar bg="transparent" expand="lg" style={styleNav}>
         <Navbar.Brand>
             <Link href="/">
-                <img src="logo.svg" style={elLogo} alt="Catálogo de la cerveza mexicana" title="Catálogo de la cerveza mexicana" />
+                <img src="logo.svg" style={elLogo} alt="Instituto Mexicano del Cemento y del Concreto A.C." title="Instituto Mexicano del Cemento y del Concreto A.C." />
             </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -63,7 +64,7 @@ export default function Menu() {
             </Nav>
             <Form inline>
             <input type="text" placeholder="Buscar contenido..." className="mr-sm-2" style={elInput} />
-            <Button  style={elBuscador}><span class="lnr lnr-magnifier"></span></Button>
+            <Button  style={elBuscador}><span className="lnr lnr-magnifier"></span></Button>
             </Form>
         </Navbar.Collapse>
     </Navbar>
