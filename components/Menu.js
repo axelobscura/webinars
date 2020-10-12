@@ -7,8 +7,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-
-
 const elInput = {
     border: 'none',
     padding: '5px 5px',
