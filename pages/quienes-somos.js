@@ -2,6 +2,7 @@ import Layout from '../components/Layout'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Footer from '../components/Footer'
 
 const containerQS = {
     height: '100vh',
@@ -73,6 +74,10 @@ export default function Quienessomos() {
                     </Col>
                 </Row>
             </Container>
+            <Footer>
+                <p className="text-light">QUIENES SOMOS</p>
+                <p className="text-light">2020 Todos Los Derechos Reservados.</p>
+            </Footer>
         </Layout>
     )
 }

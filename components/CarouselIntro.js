@@ -8,11 +8,10 @@ export default function CarouselIntro() {
                 <img
                     className="d-block w-100 h-100"
                     src="slide1.jpg"
-                    alt="Catálogo de la cerveza mexicana"
-                    title="Catálogo de la cerveza mexicana"
+                    alt="Instituto Mexicano del Cemento y del Concreto A.C."
+                    title="Instituto Mexicano del Cemento y del Concreto A.C."
                     style={{ height: '100vh !important' }}
                 />
-
                 <Carousel.Caption>
                     <h3>IMCYC</h3>
                     <h4>Instituto Mexicano del Cemento y del Concreto</h4>
@@ -22,9 +21,9 @@ export default function CarouselIntro() {
             <Carousel.Item>
                 <img
                     className="d-block w-100 h-100"
-                    src="slide2.jpg"
-                    alt="Catálogo de la cerveza mexicana"
-                    title="Catálogo de la cerveza mexicana"
+                    src="slide2.jpeg"
+                    alt="Instituto Mexicano del Cemento y del Concreto A.C."
+                    title="Instituto Mexicano del Cemento y del Concreto A.C."
                     style={{ height: '100vh !important' }}
                 />
                 <Carousel.Caption>
@@ -37,8 +36,8 @@ export default function CarouselIntro() {
                 <img
                     className="d-block w-100 h-100"
                     src="slide3.jpg"
-                    alt="Catálogo de la cerveza mexicana"
-                    title="Catálogo de la cerveza mexicana"
+                    alt="Instituto Mexicano del Cemento y del Concreto A.C."
+                    title="Instituto Mexicano del Cemento y del Concreto A.C."
                     style={{ height: '100vh !important' }}
                 />
                 <Carousel.Caption>

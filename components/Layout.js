@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Menu from './Menu';  
+import Menu from './Menu';
 
 export const siteTitle = 'Instituto Mexicano del Cemento y del Concreto A.C.';
 
