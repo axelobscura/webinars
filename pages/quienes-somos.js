@@ -60,7 +60,7 @@ export default function Quienessomos() {
             <Container fluid style={containerQS}>
                 <Row style={columnaQS}>
                     <Col style={columnaQSTitulo}>
-                        <h1 style={columnaQSh1}>QUIÉNES SOMOS</h1>
+                        <h1 style={columnaQSh1}>QUIÉNES SOMOS_</h1>
                     </Col>
                     <Col style={columnaQS}>
                         <div>
