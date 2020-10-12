@@ -19,8 +19,6 @@ const columnaQS = {
     justifyContent: 'center',
     alignItems: 'center',
     flex: '30em 1',
-    background: 'rgb(0,38,50)',
-    background: 'linear-gradient(306deg, rgba(0,38,50,1) 0%, rgba(2,99,128,1) 100%)',
 }
 
 const columnaQSTitulo = {
@@ -38,7 +36,7 @@ const columnaQSTitulo = {
 
 const columnaQSh1 = {
     textAlign: 'center',
-    fontWeight: '900',
+    fontWeight: '100',
     color: '#fff',
     fontSize: '1.7rem'
 }
@@ -46,13 +44,13 @@ const columnaQSh1 = {
 const columnaQSp = {
     textAlign: 'justify',
     padding: '10px 30px',
-    color: '#fff',
+    color: '#333',
     fontWeight: '100'
 }
 
 const columnaQSh3 = {
     padding: '10px 30px',
-    color: '#fff',
+    color: '#333',
     textAlign: 'center'
 }
 
@@ -75,8 +73,10 @@ export default function Quienessomos() {
                 </Row>
             </Container>
             <Footer>
-                <p className="text-light">QUIENES SOMOS</p>
-                <p className="text-light">2020 Todos Los Derechos Reservados.</p>
+                <p>QUIENES SOMOS</p>
+                <div className="legales">
+                    <p className="text-light">2020, Instituto Mexicano del Cemento y del concreto A.C. Todos Los Derechos Reservados.</p>
+                </div>
             </Footer>
         </Layout>
     )

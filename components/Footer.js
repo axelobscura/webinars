@@ -1,14 +1,14 @@
 var style = {
-    backgroundColor: "#000",
+    backgroundColor: "transparent",
     textAlign: "center",
-    padding: "20px",
+    padding: "20px 0",
     position: "fixed",
     left: "0",
     bottom: "0",
-    height: "100px",
+    height: "90px",
     width: "100%",
     zIndex: '100000',
-    fontSize: '0.8rem',
+    fontSize: '0.7rem',
     fontWeight: '100'
 }
 

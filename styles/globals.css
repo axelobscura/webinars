@@ -32,7 +32,7 @@ a {
 }
 
 .carousel .carousel-caption {
-  top: 30%;
+  top: 15%;
 }
 
 .carousel .carousel-caption h3 {
@@ -66,6 +66,13 @@ a {
   background: rgba(0,0,0,0.8);
   text-decoration: none;
   color: #fff;
+}
+.legales {
+  background-color: #111;
+  padding: 7px;
+}
+.legales p {
+  font-size: 0.8rem;
 }
 
 @media (max-width: 575px) {

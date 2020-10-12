@@ -13,8 +13,10 @@ export default function Home() {
         </Col>
       </Row>
       <Footer>
-        <p className="text-light">HOME</p>
-        <p className="text-light">2020 Todos Los Derechos Reservados.</p>
+        <p>HOME</p>
+        <div className="legales">
+          <p className="text-light">2020, Instituto Mexicano del Cemento y del concreto A.C. Todos Los Derechos Reservados.</p>
+        </div>
       </Footer>
     </Layout>
   )

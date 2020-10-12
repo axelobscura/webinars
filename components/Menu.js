@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router'
 import Link from 'next/link';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -6,18 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-const styleNav = {
-    position: 'fixed', 
-    zIndex: 1000, 
-    width: '100%', 
-    margin: 0, 
-    left: 0,
-    color: '#ffffff',
-    fontFamily: 'Oswald',
-    fontSize: '0.8rem',
-    padding:'0',
-    right: 0
-}
+
 
 const elInput = {
     border: 'none',
@@ -29,7 +19,7 @@ const elInput = {
 }
 
 const elLogo = {
-    width: '180px',
+    width: '9rem',
     padding: '10px 10px',
     margin: '0',
     paddingRight: '0'
@@ -43,9 +33,26 @@ const elBuscador = {
     marginRight: '5px'
 }
 
-export default function Menu() {
+export default function Menu(props) {
+    console.log(props.bkcolor.pathname);
+    const router = useRouter();
+
+    const styleNav = {
+        position: 'fixed', 
+        zIndex: 1000, 
+        width: '100%', 
+        margin: 0, 
+        left: 0,
+        color: '#ffffff',
+        fontFamily: 'Oswald',
+        fontSize: '0.8rem',
+        padding:'0',
+        right: 0,
+        background: props.bkcolor.pathname === '/quienes-somos' ? '#222' : 'transparent',
+    }
+
     return (
-    <Navbar bg="transparent" expand="lg" style={styleNav}>
+    <Navbar expand="lg" style={styleNav}>
         <Navbar.Brand>
             <Link href="/">
                 <img src="logo.svg" style={elLogo} alt="Instituto Mexicano del Cemento y del Concreto A.C." title="Instituto Mexicano del Cemento y del Concreto A.C." />
@@ -63,8 +70,8 @@ export default function Menu() {
                 <Link href="/">TIENDA</Link>
             </Nav>
             <Form inline>
-            <input type="text" placeholder="Buscar contenido..." style={elInput} />
-            <Button  style={elBuscador}><span className="lnr lnr-magnifier"></span></Button>
+                <input type="text" placeholder="Buscar contenido..." style={elInput} />
+                <Button  style={elBuscador}><span className="lnr lnr-magnifier"></span></Button>
             </Form>
         </Navbar.Collapse>
     </Navbar>
