@@ -73,7 +73,23 @@ export default function Quienessomos() {
                 </Row>
             </Container>
             <Footer>
-                <p>QUIENES SOMOS</p>
+                <Row className="menuFooter">
+                    <Col>
+                        <p>QUIENES SOMOS</p>
+                    </Col>
+                    <Col>
+                        <p>QUIENES SOMOS</p>
+                    </Col>
+                    <Col>
+                        <p>QUIENES SOMOS</p>
+                    </Col>
+                    <Col>
+                        <p>QUIENES SOMOS</p>
+                    </Col>
+                    <Col>
+                        <p>QUIENES SOMOS</p>
+                    </Col>
+                </Row>
                 <div className="legales">
                     <p className="text-light">2020, Instituto Mexicano del Cemento y del concreto A.C. Todos Los Derechos Reservados.</p>
                 </div>

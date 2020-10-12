@@ -22,7 +22,6 @@ var phantom = {
 function Footer({ children }) {
     return (
         <div>
-            <div style={phantom} />
             <div style={style}>
                 {children}
             </div>
