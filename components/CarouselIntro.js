@@ -7,7 +7,7 @@ export default function CarouselIntro() {
             <Carousel.Item>
                 <img
                     className="d-block w-100 h-100"
-                    src="https://images.pexels.com/photos/1492232/pexels-photo-1492232.jpeg"
+                    src="slide1.jpg"
                     alt="Catálogo de la cerveza mexicana"
                     title="Catálogo de la cerveza mexicana"
                     style={{ height: '100vh !important' }}
@@ -15,20 +15,36 @@ export default function CarouselIntro() {
 
                 <Carousel.Caption>
                     <h3>IMCYC</h3>
-                    <p>Instituto Mexicano del Cemento y del Concreto</p>
+                    <h4>Instituto Mexicano del Cemento y del Concreto</h4>
+                    <p>El IMCYC, A.C. es una asociación no lucrativa dedicada a la investigación, enseñanza y difusión de las técnicas de aplicación del cemento y del concreto. Su misión es promover la utilización óptima del cemento y del concreto para satisfacer las necesidades del mercado con calidad, productividad y oportunidad, contribuyendo a mejorar el desempeño profesional, el desarrollo y beneficio económico de la industria, así como de la sociedad.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100 h-100"
-                    src="https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg"
+                    src="slide2.jpg"
                     alt="Catálogo de la cerveza mexicana"
                     title="Catálogo de la cerveza mexicana"
                     style={{ height: '100vh !important' }}
                 />
                 <Carousel.Caption>
                     <h3>IMCYC</h3>
-                    <p>Instituto Mexicano del Cemento y del Concreto</p>
+                    <h4>Instituto Mexicano del Cemento y del Concreto</h4>
+                    <p>El IMCYC, A.C. es una asociación no lucrativa dedicada a la investigación, enseñanza y difusión de las técnicas de aplicación del cemento y del concreto. Su misión es promover la utilización óptima del cemento y del concreto para satisfacer las necesidades del mercado con calidad, productividad y oportunidad, contribuyendo a mejorar el desempeño profesional, el desarrollo y beneficio económico de la industria, así como de la sociedad.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100 h-100"
+                    src="slide3.jpg"
+                    alt="Catálogo de la cerveza mexicana"
+                    title="Catálogo de la cerveza mexicana"
+                    style={{ height: '100vh !important' }}
+                />
+                <Carousel.Caption>
+                    <h3>IMCYC</h3>
+                    <h4>Instituto Mexicano del Cemento y del Concreto</h4>
+                    <p>El IMCYC, A.C. es una asociación no lucrativa dedicada a la investigación, enseñanza y difusión de las técnicas de aplicación del cemento y del concreto. Su misión es promover la utilización óptima del cemento y del concreto para satisfacer las necesidades del mercado con calidad, productividad y oportunidad, contribuyendo a mejorar el desempeño profesional, el desarrollo y beneficio económico de la industria, así como de la sociedad.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

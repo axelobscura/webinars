@@ -39,14 +39,19 @@ a {
   font-weight: bold;
   font-size: 7rem;
   font-family: 'Oswald', sans-serif;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.carousel .carousel-caption h4 {
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 .carousel .carousel-caption p {
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: 'Oswald', sans-serif;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 .navbar-nav a {

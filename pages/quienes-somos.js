@@ -38,7 +38,8 @@ const columnaQSTitulo = {
 const columnaQSh1 = {
     textAlign: 'center',
     fontWeight: '900',
-    color: '#fff'
+    color: '#fff',
+    fontSize: '1.7rem'
 }
 
 const columnaQSp = {
@@ -60,7 +61,7 @@ export default function Quienessomos() {
             <Container fluid style={containerQS}>
                 <Row style={columnaQS}>
                     <Col style={columnaQSTitulo}>
-                        <h1 style={columnaQSh1}>QUIÉNES SOMOS_</h1>
+                        <h1 style={columnaQSh1}>QUIÉNES SOMOS</h1>
                     </Col>
                     <Col style={columnaQS}>
                         <div>

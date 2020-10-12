@@ -24,7 +24,7 @@ const elInput = {
     padding: '5px 5px',
     background: 'rgba(0,0,0,0.7)',
     color: '#ffffff',
-    fontSize: '1rem',
+    fontSize: '0.7rem',
     marginRight: '0 !important'
 }
 
@@ -40,7 +40,7 @@ const elBuscador = {
     color: '#fff',
     border: '3px solid #333',
     borderRadius: 0,
-    marginRight: '10px'
+    marginRight: '5px'
 }
 
 export default function Menu() {
@@ -63,7 +63,7 @@ export default function Menu() {
                 <Link href="/">TIENDA</Link>
             </Nav>
             <Form inline>
-            <input type="text" placeholder="Buscar contenido..." className="mr-sm-2" style={elInput} />
+            <input type="text" placeholder="Buscar contenido..." style={elInput} />
             <Button  style={elBuscador}><span className="lnr lnr-magnifier"></span></Button>
             </Form>
         </Navbar.Collapse>
