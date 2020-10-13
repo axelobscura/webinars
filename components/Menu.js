@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button';
 
 const elInput = {
     border: 'none',
-    padding: '5px 5px',
+    padding: '13px 10px',
     background: 'rgba(0,0,0,0.7)',
     color: '#ffffff',
     fontSize: '0.7rem',
