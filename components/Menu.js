@@ -32,8 +32,9 @@ const elBuscador = {
 }
 
 export default function Menu(props) {
-    console.log(props.bkcolor.pathname);
     const router = useRouter();
+
+    console.log('el router: '+JSON.stringify(router));
 
     const styleNav = {
         position: 'fixed', 
@@ -46,7 +47,11 @@ export default function Menu(props) {
         fontSize: '0.8rem',
         padding:'0',
         right: 0,
-        background: props.bkcolor.pathname === '/quienes-somos' ? '#222' : 'transparent',
+        background: router.pathname === '/quienes-somos' ? '#222' : 'rgba(255,255,255,0.8)',
+    }
+
+    const elLink = {
+        color: router.pathname === '/quienes-somos' ? '#fff' : '#333 !important',
     }
 
     return (
@@ -59,13 +64,13 @@ export default function Menu(props) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-                <Link href="/quienes-somos">QUIÉNES SOMOS</Link>
-                <Link href="/">CURSOS</Link>
-                <Link href="/">GERENCIA TÉCNICA</Link>
-                <Link href="/">HISTORIA</Link>
-                <Link href="/">MEMBRESÍAS</Link>
-                <Link href="/">DIRECTORIO</Link>
-                <Link href="/">TIENDA</Link>
+                <Link href="/quienes-somos"><a style={elLink}>QUIÉNES SOMOS</a></Link>
+                <Link href="/cursos"><a style={elLink}>CURSOS EN LÍNEA</a></Link>
+                <Link href="/"><a style={elLink}>GERENCIA TÉCNICA</a></Link>
+                <Link href="/"><a style={elLink}>HISTORIA</a></Link>
+                <Link href="/"><a style={elLink}>MEMBRESÍAS</a></Link>
+                <Link href="/"><a style={elLink}>DIRECTORIO</a></Link>
+                <Link href="/"><a style={elLink}>TIENDA</a></Link>
             </Nav>
             <Form inline>
                 <input type="text" placeholder="Buscar contenido..." style={elInput} />
