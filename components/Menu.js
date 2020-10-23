@@ -73,6 +73,7 @@ export default function Menu(props) {
                 <Link href="/"><a style={elLink}>TIENDA</a></Link>
                 <Link href="/"><a style={elLink}>WEBINARS</a></Link>
                 <Link href="/"><a style={elLink}>CONTACTO</a></Link>
+                <Link href="/"><a style={elLink}>APLICACIONES</a></Link>
             </Nav>
             <Form inline>
                 <input type="text" placeholder="Buscar contenido..." style={elInput} />
