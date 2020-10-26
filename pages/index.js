@@ -14,7 +14,7 @@ export default function Home() {
       </Row>
       <Footer>
         <div className="legales">
-          <p className="text-light">2020, Instituto Mexicano del Cemento y del concreto A.C. Todos Los Derechos Reservados - Aplicaciones para la construcción.</p>
+          <p className="text-light">2020, Instituto Mexicano del Cemento y del concreto A.C. Todos Los Derechos Reservados - Aplicaciones profesionales para la construcción.</p>
         </div>
       </Footer>
     </Layout>
